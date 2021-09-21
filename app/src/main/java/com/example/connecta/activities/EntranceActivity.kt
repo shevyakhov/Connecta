@@ -11,9 +11,11 @@ class EntranceActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         binding = ActivityEntranceBinding.inflate(layoutInflater)
         setContentView(binding.root)
+        init()
     }
     private fun init(){
-
+        loginListener()
+        registerListener()
     }
 
     private fun loginListener(){
