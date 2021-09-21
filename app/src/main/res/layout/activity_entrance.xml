@@ -22,6 +22,7 @@
     <Button
         style="@style/PrimaryButtonStyle"
         android:text="@string/Login"
+        android:background="@drawable/btn_shape"
         android:id="@+id/loginBtn"
         android:textSize="20sp"
         android:layout_width="305dp"
@@ -39,6 +40,7 @@
         android:layout_width="150dp"
         android:text="@string/Registration"
         android:layout_height="50dp"
+        android:background="@drawable/btn_shape"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.807"
